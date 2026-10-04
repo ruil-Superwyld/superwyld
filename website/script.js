@@ -131,7 +131,7 @@ form.addEventListener("submit", (event) => {
   );
 
   formStatus.textContent = `Thanks, ${name}. Opening an email draft for ${date}.`;
-  window.location.href = `mailto:hello@superwyld.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:Info@SuperWyld.com?subject=${subject}&body=${body}`;
 });
 
 renderCalendar();
