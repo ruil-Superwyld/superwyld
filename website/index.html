@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Super WYLD is a colorful kids theme park for play, birthdays, school visits, and family days."
+    />
+    <title>Super WYLD | Kids Theme Park</title>
+    <link rel="preload" href="assets/images/superwyld-hero.png" as="image" />
+    <link rel="preload" href="assets/images/superwyld-logo-vertical.png" as="image" />
+    <link rel="preload" href="assets/images/superwyld-logo-horizontal.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Super WYLD home">
+        <span
+          class="asset-image brand-logo brand-logo-vertical"
+          data-asset-src="assets/images/superwyld-logo-vertical.png"
+          role="img"
+          aria-label="Super WYLD"
+        ></span>
+        <span class="brand-fallback">Super WYLD</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#experiences">Play</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#schedule">Plan a Visit</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Super WYLD introduction">
+        <img
+          class="hero-image"
+          src="assets/images/superwyld-hero.png"
+          alt="Super WYLD visual identity artwork with a cute mascot in a pastel fantasy landscape"
+        />
+        <div class="hero-scrim"></div>
+        <div class="hero-content sr-only">
+          <p class="eyebrow">Kids theme park</p>
+          <h1>Super WYLD</h1>
+          <p class="hero-copy">
+            A bright world of rides, climbing, creative play, birthdays, and
+            family adventures designed for curious kids.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#schedule">Book a Visit</a>
+            <a class="button button-secondary" href="#experiences">Explore Zones</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Park highlights">
+        <div class="stat">
+          <strong>6</strong>
+          <span>themed play zones</span>
+        </div>
+        <div class="stat">
+          <strong>2-12</strong>
+          <span>ideal age range</span>
+        </div>
+        <div class="stat">
+          <strong>90 min</strong>
+          <span>guided party slots</span>
+        </div>
+        <div class="stat">
+          <strong>7 days</strong>
+          <span>open weekly</span>
+        </div>
+      </section>
+
+      <section class="character-section" aria-label="MiuMiu character introduction">
+        <div class="character-copy">
+          <p class="eyebrow">Meet the park IP</p>
+          <h2>MiuMiu guides every Super WYLD adventure.</h2>
+          <p>
+            MiuMiu is the theme park's curious star companion, leading kids
+            through story moments, photo spots, birthdays, and seasonal play.
+          </p>
+        </div>
+        <div class="character-art">
+          <div
+            class="asset-image character-image"
+            data-asset-src="assets/images/miumiu-character.png"
+            role="img"
+            aria-label="MiuMiu, the Super WYLD character"
+          ></div>
+          <div class="miu-fallback">MiuMiu</div>
+        </div>
+      </section>
+
+      <section class="section" id="experiences">
+        <div class="section-heading">
+          <p class="eyebrow">Adventure zones</p>
+          <h2>Built for movement, stories, and small discoveries.</h2>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card coral">
+            <span class="card-icon symbol-super" aria-hidden="true">S</span>
+            <h3>Whimsy Land</h3>
+            <p>Soft-play towers, slides, tunnels, and sensory corners for younger explorers.</p>
+          </article>
+          <article class="experience-card yellow">
+            <span class="card-icon symbol-u" aria-hidden="true">U</span>
+            <h3>Ride Loop</h3>
+            <p>Gentle themed rides and track experiences paced for children and parents.</p>
+          </article>
+          <article class="experience-card green">
+            <span class="card-icon symbol-star" aria-hidden="true">*</span>
+            <h3>Maker Garden</h3>
+            <p>Hands-on art, building prompts, seasonal crafts, and group workshops.</p>
+          </article>
+          <article class="experience-card cyan">
+            <span class="card-icon symbol-w" aria-hidden="true">W</span>
+            <h3>Party Studio</h3>
+            <p>Hosted birthdays with private rooms, character moments, food, and photo stops.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="schedule-section" id="schedule">
+        <div class="schedule-copy">
+          <p class="eyebrow">Schedule</p>
+          <h2>Choose a day, then send the team your visit request.</h2>
+          <p>
+            Pick a calendar date and share group details. The Super WYLD team
+            will confirm availability for general admission, parties, school
+            visits, or private events.
+          </p>
+          <div class="hours">
+            <h3>Opening Hours</h3>
+            <dl>
+              <div><dt>Mon-Thu</dt><dd>10:00 AM - 6:00 PM</dd></div>
+              <div><dt>Fri-Sat</dt><dd>10:00 AM - 8:00 PM</dd></div>
+              <div><dt>Sunday</dt><dd>10:00 AM - 7:00 PM</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="booking-panel" aria-label="Visit request form">
+          <div class="calendar-head">
+            <button class="icon-button" type="button" data-calendar-prev aria-label="Previous month">
+              <span aria-hidden="true">&#8249;</span>
+            </button>
+            <h3 data-calendar-title>Month</h3>
+            <button class="icon-button" type="button" data-calendar-next aria-label="Next month">
+              <span aria-hidden="true">&#8250;</span>
+            </button>
+          </div>
+          <div class="weekday-row" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div class="calendar-grid" data-calendar-grid></div>
+
+          <form class="visit-form" id="visitForm">
+            <input type="hidden" id="selectedDate" name="selectedDate" />
+            <label>
+              Parent or group lead
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              Visit type
+              <select name="visitType" required>
+                <option value="">Select one</option>
+                <option>Family visit</option>
+                <option>Birthday party</option>
+                <option>School or camp group</option>
+                <option>Private event</option>
+              </select>
+            </label>
+            <label>
+              Guests
+              <input name="guests" type="number" min="1" max="120" placeholder="12" required />
+            </label>
+            <label class="full">
+              Notes
+              <textarea name="notes" rows="4" placeholder="Preferred time, children's ages, accessibility needs"></textarea>
+            </label>
+            <button class="button button-primary full" type="submit">Request Availability</button>
+            <p class="form-status" data-form-status role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Start planning a Super WYLD day.</h2>
+        </div>
+        <div class="contact-grid">
+          <a href="mailto:hello@superwyld.com">
+            <span>Email</span>
+            hello@superwyld.com
+          </a>
+          <a href="tel:+15550199395">
+            <span>Phone</span>
+            +1 (555) 019-9395
+          </a>
+          <a href="https://superwyld.com" target="_blank" rel="noreferrer">
+            <span>Website</span>
+            superwyld.com
+          </a>
+          <address>
+            <span>Location</span>
+            100 Wonder Way, Irvine, CA
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#top" aria-label="Super WYLD home">
+        <span
+          class="asset-image footer-logo"
+          data-asset-src="assets/images/superwyld-logo-horizontal.png"
+          role="img"
+          aria-label="Super WYLD"
+        ></span>
+        <span class="brand-fallback footer-fallback">Super WYLD</span>
+      </a>
+      <span>Kids theme park, birthdays, groups, and family play.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
