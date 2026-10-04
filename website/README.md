@@ -22,3 +22,18 @@ The PDF and font source files referenced in the brief were not available at
 `/Users/gdz/Downloads/wyld` during implementation. The page includes the
 expected font-face hooks and can be refined once those files are placed in the
 project.
+
+## Deployment
+
+The production workflow is:
+
+1. Update the source files in `website/`.
+2. Run `pnpm run build` locally to verify the generated `dist/` site.
+3. Commit and push changes to the `main` branch on GitHub.
+4. Vercel automatically builds the project with `npm run build` and publishes
+   the result to production.
+
+Production URLs:
+
+- `https://superwyld.vercel.app`
+- `https://superwyld.com` after the domain DNS records point to Vercel.
