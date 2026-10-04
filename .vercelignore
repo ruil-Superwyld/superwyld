@@ -1,0 +1,9 @@
+.git/
+.pnpm-store/
+.DS_Store
+.env*
+dist/
+node_modules/
+*.pdf
+idea.png
+字体/

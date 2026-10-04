@@ -3,3 +3,5 @@ dist/
 node_modules/
 .pnpm-store/
 .DS_Store
+.vercel
+.env*
